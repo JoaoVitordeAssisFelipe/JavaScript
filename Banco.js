@@ -93,8 +93,8 @@ function Titular(nome, dataNasc, telefone, cpf, email) {
 }
 
 
-santander = new Banco('123', 'Santander')
-brasil = new Banco('321', 'Banco do Brasil')
+let santander = new Banco('123', 'Santander')
+let brasil = new Banco('321', 'Banco do Brasil')
 
 let agencia2 = new Agencia(0102);
 let agencia3 = new Agencia(0103);
